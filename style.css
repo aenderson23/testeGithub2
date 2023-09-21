@@ -1,0 +1,134 @@
+:root{
+    --texto-pincipal: #ffffff;
+    --texto-secundario: #c0c0c0;
+    --botão-principal: #167bf7;
+    --cor-primario:#00030c;
+    --fornte-principal: "Inter"
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+body{
+    background-color: var(--cor-primario);
+    color: var(--texto-pincipal);
+    font-weight: 400;
+    font-family: var(--fornte-principal);
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main-button{
+    background-color: var(--botão-principal);
+    color: var(--texto-pincipal);
+    border-radius: 8px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.secondary-button{
+    color: var(--texto-pincipal);
+    border: 1px solid var(--texto-pincipal);
+    border-radius: 8px;
+    padding: 1em;
+    display: block;
+}
+
+.aviso{
+    color: var(--texto-secundario);
+    font-size: 12px;
+}
+
+.combo{
+    margin: 1em 0 2em 0;
+}
+
+.bloco{
+    margin-left: 2em
+}
+
+.plataformas{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin-left: 6em;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.small{
+    display: inline-block;
+    margin: 2em 0
+}
+
+.descrição{
+    padding: 2em;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.dispositivos{
+    padding:0 2em;
+    text-align: center;
+    margin: 5em 0;
+}
+
+.textbold{
+    font-size: 36px;
+}
+
+footer{
+    padding: 2em;
+    text-align: center;
+}
+.link{
+    color: var(--texto-pincipal);
+}
+
+.link>a{
+    color: var(--texto-pincipal);
+    font-size: 16px;
+}
+
+.space{
+    margin:2em 0;
+    justify-content: space-around;
+}
+
+.link>a:hover{
+    color: var(--botão-principal);
+}
